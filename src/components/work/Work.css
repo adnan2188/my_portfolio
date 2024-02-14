@@ -107,6 +107,7 @@
 @media screen and (max-width:576px) {
     .work_container {
         grid-template-columns: max-content;
+        background-color: red;
     }
 
     .work_container {
@@ -115,7 +116,7 @@
 
     .work_img {
         width: 100%;
-        height: 180px;
+        height: 190px;
     }
 }
 
