@@ -77,7 +77,6 @@
 @media screen and (max-width:992px) {
     .work_container {
         grid-template-columns: repeat(2, max-content);
-        background-color: red;
     }
 
     .work_img {
@@ -108,7 +107,6 @@
 @media screen and (max-width:576px) {
     .work_container {
         grid-template-columns: max-content;
-        background-color: green;
     }
 
     .work_container {
@@ -117,15 +115,12 @@
 
     .work_img {
         width: 100%;
-        height: 200px;
+        /* height: 150px; */
     }
 }
 
 /* FOR SMALL DEVICES */
 @media screen and (max-width:350px) {
-    .work_container {
-        background-color: blue;
-    }
 
     .work_item {
         font-size: var(--small-font-size);
