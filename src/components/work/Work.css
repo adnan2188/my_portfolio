@@ -128,4 +128,8 @@
     .work_filters {
         column-gap: 0.25rem;
     }
+
+    .work_img {
+        height: 200px;
+    }
 }

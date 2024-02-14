@@ -45,7 +45,7 @@ const Qualification = () => {
                                 <h3 className="qualification_title">Web development</h3>
                                 <span className="qualification_subtitle">Pakistan - Institute</span>
                                 <div className="qualification_calendar">
-                                    <i className="uil uil-calendar-alt">2023 - Present</i>
+                                    <i className="uil uil-calendar-alt"> 2023 - Present</i>
                                 </div>
                             </div>
 
@@ -65,7 +65,7 @@ const Qualification = () => {
                                 <h3 className="qualification_title">Dars-e-Nizami</h3>
                                 <span className="qualification_subtitle">Pakistan - Institute</span>
                                 <div className="qualification_calendar">
-                                    <i className="uil uil-calendar-alt">2015 - 2023 </i>
+                                    <i className="uil uil-calendar-alt"> 2015 - 2023 </i>
                                 </div>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ const Qualification = () => {
                                 <h3 className="qualification_title">F.A</h3>
                                 <span className="qualification_subtitle">Pakistan - Institute</span>
                                 <div className="qualification_calendar">
-                                    <i className="uil uil-calendar-alt">2021 - 2023</i>
+                                    <i className="uil uil-calendar-alt"> 2021 - 2023</i>
                                 </div>
                             </div>
 
@@ -96,7 +96,7 @@ const Qualification = () => {
                                 <h3 className="qualification_title">Matric</h3>
                                 <span className="qualification_subtitle">Paksitan - Institute</span>
                                 <div className="qualification_calendar">
-                                    <i className="uil uil-calendar-alt">2019 - 2021</i>
+                                    <i className="uil uil-calendar-alt"> 2019 - 2021</i>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@ const Qualification = () => {
 
                     <div className={toggleState === 2 ? "qualification_content qualification_content-active" : "qualification_content"}>
                         <div style={{ fontSize: "20px", }}>
-                            <p style={{ textAlign: "center", fontWeight: 600, letterSpacing: 3, lineHeight: "40px" }}>
+                            <p style={{ textAlign: "center", fontWeight: 600, letterSpacing: 3, lineHeight: "30px" }}>
                                 {/* I have strong foundation in React.js Collaborated on projects, ensuring responsive design and optimal user experiences. Committed to continuous learning and growth in dynamic development environments. */}
                                 Learning prosess <br /> now a days
                             </p>
