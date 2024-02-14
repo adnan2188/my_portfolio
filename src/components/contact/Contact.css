@@ -27,14 +27,15 @@
 }
 
 .contact_card-icon {
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--title-color);
     margin-bottom: var(--mb-0-25);
 }
 
 .contact_card-title,
 .contact_card-data {
-    font-size: var(--small-font-size);
+    font-size: var(--medium-font-size);
+    margin-top: 5px;
 }
 
 .contact_card-title {
@@ -48,7 +49,7 @@
 
 .contact_button {
     color: var(--text-color);
-    font-size: var(--small-font-size);
+    font-size: var(--medium-font-size);
     display: inline-flex;
     justify-content: center;
     align-items: center;

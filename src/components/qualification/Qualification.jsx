@@ -105,9 +105,9 @@ const Qualification = () => {
 
                     <div className={toggleState === 2 ? "qualification_content qualification_content-active" : "qualification_content"}>
                         <div style={{ fontSize: "20px", }}>
-                            <p style={{ textAlign: "center", color: "green", fontWeight: 600, letterSpacing: 3 }}>
+                            <p style={{ textAlign: "center", fontWeight: 600, letterSpacing: 3, lineHeight: "40px" }}>
                                 {/* I have strong foundation in React.js Collaborated on projects, ensuring responsive design and optimal user experiences. Committed to continuous learning and growth in dynamic development environments. */}
-                                Learning prosess Now a days
+                                Learning prosess <br /> now a days
                             </p>
                         </div>
 
