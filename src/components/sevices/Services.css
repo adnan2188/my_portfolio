@@ -34,7 +34,7 @@
 }
 
 .services_button-icon {
-    font-size: 1rem;
+    font-size: 2rem;
     transform: 0.3s;
 }
 
@@ -143,6 +143,29 @@
 @media screen and (max-width:768px) {}
 
 @media screen and (max-width:576px) {
+    .services_icon {
+        font-size: 3rem;
+        /* text-align: right; */
+        margin-bottom: 0px;
+    }
+
+    .services_button {
+        font-size: 1.25rem;
+    }
+
+    .services_container {
+        grid-template-columns: repeat(1, 80%);
+    }
+
+    .services_content {
+        /* padding: 6rem 0 2rem 2.5rem; */
+        padding: 2rem 2rem 1rem;
+    }
+
+    .services_title {
+        font-size: var(--h2-font-size);
+    }
+
     .services_modal-content {
         padding: 4.5rem 1.5rem 2.5rem;
     }
