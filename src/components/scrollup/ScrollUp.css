@@ -39,7 +39,11 @@
 }
 
 /* FOR MEDIUM DEVICES */
-@media screen and (max-width:768px) {}
+@media screen and (max-width:768px) {
+    .scrollup {
+        bottom: 5rem;
+    }
+}
 
 @media screen and (max-width:576px) {}
 
