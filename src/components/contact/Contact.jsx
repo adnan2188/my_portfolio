@@ -8,7 +8,10 @@ const Contact = () => {
         e.preventDefault();
 
         emailjs
-            .sendForm('service_wyjw4nb', 'template_ox12ib7', form.current,
+            .sendForm(
+                'Portfolio_Contact_Form',
+                'template_ox12ib7',
+                form.current,
                 "R2_F3IM8v4OvIXF_S"
             )
         e.target.reset();
@@ -62,15 +65,15 @@ const Contact = () => {
                     <form ref={form} onSubmit={sendEmail} className="contact_form">
                         <div className="contact_form-div">
                             <label className="contact_form-tag">Name</label>
-                            <input type="text" name="name" className="contact_form-input" placeholder="Insert your name" />
+                            <input type="text" name="name" className="contact_form-input" placeholder="Insert your name" required />
                         </div>
                         <div className="contact_form-div">
                             <label className="contact_form-tag">Mail</label>
-                            <input type="email" name="email" className="contact_form-input" placeholder="Insert your email" />
+                            <input type="email" name="email" className="contact_form-input" placeholder="Insert your email" required />
                         </div>
                         <div className="contact_form-div contact_form-area">
                             <label className="contact_form-tag">Project</label>
-                            <textarea name="project" cols="30" rows="10" className="contact_form-input" placeholder="Write your project ..."></textarea>
+                            <textarea name="project" cols="30" rows="10" className="contact_form-input" placeholder="Write your project ..." required></textarea>
                         </div>
                         <button href="#contact" className="button button--flex">
                             Send Message
