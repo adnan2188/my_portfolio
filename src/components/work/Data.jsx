@@ -5,48 +5,49 @@ import todo from "../../assets/todo.png";
 import Work5 from "../../assets/work5.jpg";
 import Work6 from "../../assets/work6.jpg";
 import Work7 from "../../assets/work7.jpg";
+import Work8 from "../../assets/work8.jpg";
 export const projectsData = [
   {
     id: 1,
-    image: clock,
-    title: "Wall watch",
+    image: Work6,
+    title: "Quran Translation",
     category: "web",
-    link: "https://adnan2188.github.io/Analog-Clock3/",
+    link: "https://quran-translate.netlify.app",
   },
   {
     id: 2,
-    image: calculator,
+    image: Work5,
     title: "Calculator",
     category: "app",
     link: "https://your-smart-calculator.netlify.app",
   },
   {
     id: 3,
+    image: calculator,
+    title: "Calculator",
+    category: "App",
+    link: "https://your-smart-calculator.netlify.app",
+  },
+  {
+    id: 4,
+    image: clock,
+    title: "Clock",
+    category: "web",
+    link: "https://adnan2188.github.io/Analog-Clock3/",
+  },
+  {
+    id: 5,
     image: tick_tack_toe_game,
     title: "Tick Tack Toe Game",
     category: "App",
     link: "https://adnan2188.github.io/tic-tac-toe-game/",
   },
   {
-    id: 4,
+    id: 6,
     image: todo,
     title: "Todo Task",
     category: "app",
     link: "https://adnan2188.github.io/Todo_Task",
-  },
-  {
-    id: 5,
-    image: Work5,
-    title: "Qurna - Surahs",
-    category: "web",
-    link: "https://quran-surahs.netlify.app/",
-  },
-  {
-    id: 6,
-    image: Work6,
-    title: "Qurna Tranalation",
-    category: "web",
-    link: "https://quran-translate.netlify.app",
   },
   {
     id: 7,
@@ -54,6 +55,13 @@ export const projectsData = [
     title: "College Website",
     category: "web",
     link: "https://adnan2188.github.io/CollegeWebsite/",
+  },
+  {
+    id: 8,
+    image: Work8,
+    title: "Grocery Store",
+    category: "HTML & CSS",
+    link: "https://adnan2188.github.io/Grosery-Store/",
   },
 ];
 
@@ -68,6 +76,6 @@ export const projectsNav = [
     name: "app",
   },
   {
-    name: "design",
+    name: "HTML & CSS",
   },
 ];
