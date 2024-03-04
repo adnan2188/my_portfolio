@@ -10,7 +10,7 @@ const ScrollUp = () => {
     <a href="#" className="scrollup">
       <i
         className="uil uil-arrow-up scrollup_icon"
-        style={{ color: "white" }}
+      style={{color:"white"}}
       ></i>
     </a>
   );
